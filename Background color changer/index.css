@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont {
+  height: 100vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#btn {
+  padding: 15px 30px;
+  border: none;
+  background-color: tomato;
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h2 {
+  color: #fff;
+}
